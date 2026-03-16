@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "standup-logger",
-      "source": {"source": "github", "repo": "mohitgoel188/standup-logger"},
+      "source": {"source": "url", "url": "https://github.com/mohitgoel188/standup-logger.git"},
       "description": "Automatic daily standup logger for Claude Code. Logs session work with Jira ticket IDs to per-date files and generates ready-to-speak standup summaries.",
       "version": "1.0.0"
     }
