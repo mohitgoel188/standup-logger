@@ -1,0 +1,19 @@
+{
+  "name": "standup-logger",
+  "version": "1.0.0",
+  "description": "Automatic daily standup logger for Claude Code. Logs session work with Jira ticket IDs to per-date files and generates ready-to-speak standup summaries.",
+  "author": {
+    "name": "Mohit Goel"
+  },
+  "license": "MIT",
+  "keywords": [
+    "standup",
+    "daily-standup",
+    "work-log",
+    "scrum",
+    "jira",
+    "productivity"
+  ],
+  "repository": "https://github.com/mohitgoel188/standup-logger",
+  "homepage": "https://github.com/mohitgoel188/standup-logger#readme"
+}

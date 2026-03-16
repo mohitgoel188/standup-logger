@@ -1,0 +1,16 @@
+{
+  "description": "Standup Logger - Auto-log session work on exit",
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/standup-check.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

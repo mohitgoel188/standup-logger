@@ -1,0 +1,14 @@
+{
+  "name": "mohitgoel188-standup-logger",
+  "owner": {
+    "name": "Mohit Goel"
+  },
+  "plugins": [
+    {
+      "name": "standup-logger",
+      "source": "..",
+      "description": "Automatic daily standup logger for Claude Code. Logs session work with Jira ticket IDs to per-date files and generates ready-to-speak standup summaries.",
+      "version": "1.0.0"
+    }
+  ]
+}
