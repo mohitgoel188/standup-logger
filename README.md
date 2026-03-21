@@ -46,14 +46,28 @@ This ensures you always have *something* in your standup file, even if you forgo
 
 ## Installation
 
+### From GitHub (recommended)
+
 ```bash
-claude plugins install standup-logger
+# 1. Add the marketplace source
+claude plugins marketplace add https://github.com/mohitgoel188/standup-logger.git --scope user
+
+# 2. Install the plugin (user scope so it's available across all projects)
+claude plugins install standup-logger@mohitgoel188-standup-logger --scope user
+
+# 3. Restart Claude Code to activate hooks
 ```
 
-Or install from GitHub:
+### From registry (if published)
+
 ```bash
-claude plugins marketplace add --source github --repo <your-username>/standup-logger
-claude plugins install standup-logger@<your-username>-standup-logger
+claude plugins install standup-logger --scope user
+```
+
+## Uninstall
+
+```bash
+claude plugins uninstall standup-logger@mohitgoel188-standup-logger --scope user
 ```
 
 ## Configuration
